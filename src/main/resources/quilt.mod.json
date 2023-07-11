@@ -1,22 +1,24 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "io.github.project-vor",
-		"id": "project-vor",
+		"group": "io.github.project_vor",
+		"id": "project_vor",
 		"version": "${version}",
 		"metadata": {
 			"name": "Project VOR",
 			"description": "Vibe Origins Reborn",
 			"contributors": {
-				"anthonyfic-code": "Owner"
+				"AnthonyFic-code": "Owner"
 			},
 			"contact": {
+				"issues": "https://github.com/AnthonyFic-code/project-vor/issues",
+				"sources": "https://github.com/AnthonyFic-code/project-vor"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/project_vor/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "io.github.projectvor"
+			"init": "io.github.project_vor.general"
 		},
 		"depends": [
 			{
@@ -33,5 +35,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "project_vor.mixins.json"
 }
