@@ -1,0 +1,37 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "io.github.project-vor",
+		"id": "project-vor",
+		"version": "${version}",
+		"metadata": {
+			"name": "Project VOR",
+			"description": "Vibe Origins Reborn",
+			"contributors": {
+				"anthonyfic-code": "Owner"
+			},
+			"contact": {
+			},
+			"icon": "assets/example_mod/icon.png"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+			"init": "io.github.projectvor"
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.19.1"
+			},
+			{
+				"id": "quilted_fabric_api",
+				"versions": ">=7.0.2"
+			},
+			{
+				"id": "minecraft",
+				"versions": ">=1.20"
+			}
+		]
+	},
+	"mixin": "example_mod.mixins.json"
+}
