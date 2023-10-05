@@ -1,0 +1,31 @@
+{
+  "type": "origins:resource",
+  "min": 0,
+  "max": 50,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+    "bar_index": 15
+  },
+  "min_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:spawn_particles",
+        "particle": {
+          "type": "minecraft:campfire_cosy_smoke"
+        },
+        "count": 16,
+        "spread": {
+          "x": 3.0,
+          "y": 0.0,
+          "z": 3.0
+        }
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "origin set @s origins:origin project_vor:explosive_rat"
+      }
+    ]
+  },
+  "hidden": true
+}

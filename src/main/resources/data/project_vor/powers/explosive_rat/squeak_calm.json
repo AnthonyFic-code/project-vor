@@ -1,0 +1,17 @@
+{
+  "type": "origins:active_self",
+  "condition": {
+    "type": "origins:sneaking"
+  },
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "project_vor:explosive_rat/rage",
+    "change": -50
+  },
+  "key": {
+    "key": "key.loadToolbarActivator",
+    "continuous": false
+  },
+  "name": "squeak",
+  "description": "Hold sneak to become less volatile. Automatically wears off after 5 seconds without explosions."
+}

@@ -1,0 +1,22 @@
+{
+  "powers": [
+    "origins:fragile",
+    "origins:fall_immunity",
+    "origins:sprint_jump",
+    "origins:scare_creepers",
+
+    "project_vor:unnamed_cat/wolfhostile",
+    "project_vor:unnamed_cat/paw_strength",
+    "project_vor:unnamed_cat/instant_transmission",
+    "project_vor:unnamed_cat/devil_fruited",
+    "project_vor:unnamed_cat/frens",
+    "project_vor:unnamed_cat/height_1b"
+  ],
+  "icon": {
+    "item": "minecraft:orange_terracotta"
+  },
+  "order": 3,
+  "impact": 2,
+  "name": "unnamed cat (2)",
+  "description": ":3"
+}

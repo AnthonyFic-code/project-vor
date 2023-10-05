@@ -1,0 +1,10 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "project_vor:explosive_rat/rage",
+    "change": -1
+  },
+  "interval": 5,
+  "hidden": true
+}

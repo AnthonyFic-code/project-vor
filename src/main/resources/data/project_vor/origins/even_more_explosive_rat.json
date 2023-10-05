@@ -1,0 +1,22 @@
+{
+  "powers": [
+    "origins:fall_immunity",
+    "project_vor:explosive_rat/explosive_fireball",
+    "project_vor:explosive_rat/actually_explode_bind",
+    "project_vor:explosive_rat/explosion_immunity",
+    "project_vor:explosive_rat/squeak_calm",
+    "project_vor:explosive_rat/rage",
+    "project_vor:explosive_rat/rage_depletion",
+    "project_vor:explosive_rat/primed",
+    "project_vor:unnamed_cat/devil_fruited",
+    "project_vor:explosive_rat/height_point5b"
+
+  ],
+  "icon": {
+    "item": "minecraft:tnt"
+  },
+  "order": 3,
+  "impact": 2,
+  "name": "VERY explosive rat",
+  "description": "Tell me if you find this text!"
+}

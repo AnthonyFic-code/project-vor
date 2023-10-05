@@ -1,0 +1,18 @@
+{
+  "powers": [
+    "origins:fall_immunity",
+    "project_vor:explosive_rat/fireball",
+    "project_vor:explosive_rat/explode_bind",
+    "project_vor:explosive_rat/explosion_immunity",
+    "project_vor:explosive_rat/squeak_enrage",
+    "project_vor:unnamed_cat/devil_fruited",
+    "project_vor:explosive_rat/height_point5b"
+  ],
+  "icon": {
+    "item": "minecraft:redstone_block"
+  },
+  "order": 3,
+  "impact": 2,
+  "name": "explosive rat",
+  "description": "https://en.wikipedia.org/wiki/Explosive_rat"
+}

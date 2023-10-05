@@ -1,0 +1,26 @@
+{
+  "type": "origins:fire_projectile",
+  "entity_type": "minecraft:fireball",
+  "count": "1",
+  "speed": "1.5",
+  "divergence": "0.0",
+  "tag": "{ExplosionPower:2}",
+  "cooldown": 40,
+  "hud_render": {
+    "should_render": true,
+    "bar_index": 7
+  },
+  "shooter_action": {
+    "type": "origins:change_resource",
+    "resource": "project_vor:explosive_rat/rage",
+    "change": 50,
+    "operation": "set"
+  },
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "name": "Spitting straight :fire: :fire:",
+  "description": "Shoots some very explosive spit that DOES break blocks",
+  "loading_priority": 15
+}

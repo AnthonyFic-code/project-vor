@@ -1,0 +1,25 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:explode",
+        "power": 5,
+        "damage_self": false,
+        "create_fire": false
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "kill @p"
+      }
+    ]
+  },
+  "cooldown": 120,
+  "key": {
+    "key": "key.origins.secondary_active",
+    "continuous": false
+  },
+  "name": "./NUKE.exe",
+  "description": "You explode instantly and destroy blocks."
+}

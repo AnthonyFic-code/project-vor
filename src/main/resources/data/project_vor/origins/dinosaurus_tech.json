@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "project_vor:dino_tech/height_changer",
+    "project_vor:dino_tech/shrinkifier"
+  ],
+  "icon": {
+    "item": "minecraft:goat_horn"
+  },
+  "order": 3,
+  "impact": 2,
+  "name": "Mechosaurus Techs",
+  "description": "If we don't learn from our past, we're doomed to repeat it."
+}
