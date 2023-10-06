@@ -6,7 +6,8 @@
     "project_vor:explosive_rat/explosion_immunity",
     "project_vor:explosive_rat/squeak_enrage",
     "project_vor:unnamed_cat/devil_fruited",
-    "project_vor:explosive_rat/height_point5b"
+    "project_vor:explosive_rat/height_point5b",
+    "project_vor:explosive_rat/calm_remote_detonate"
   ],
   "icon": {
     "item": "minecraft:redstone_block"

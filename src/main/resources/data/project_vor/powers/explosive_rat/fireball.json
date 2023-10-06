@@ -1,11 +1,12 @@
 {
     "type": "origins:fire_projectile",
     "entity_type": "minecraft:fireball",
-    "count": "1",
+    "count": 3,
     "speed": "1.5",
     "divergence": "0.0",
+    "interval": 1,
     "tag": "{ExplosionPower:-2}",
-    "cooldown": 20,
+    "cooldown": 16,
     "hud_render": {
         "should_render": true,
         "bar_index": 7
