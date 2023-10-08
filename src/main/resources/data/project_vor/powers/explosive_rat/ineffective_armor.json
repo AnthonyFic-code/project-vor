@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "Weaker armor",
+        "attribute": "minecraft:generic.armor",
+        "value": -0.4,
+        "operation": "multiply_base"
+    },
+    "name": "Ineffective Defense",
+    "description": "Equipment gives 40% less armor than usual."
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " T ",
+        "RAN",
+        " S "
+    ],
+    "key": {
+      "T": {
+          "item": "minecraft:light_blue_dye"
+      },
+      "R": {
+        "item": "bakery:strawberry"
+      },
+      "A": {
+        "item": "minecraft:pink_dye"
+      },
+      "N": {
+        "item": "minecraft:milk_bucket"
+      },
+      "S": {
+        "item": "minecraft:white_dye"
+      }
+    },
+    "result": {
+        "item": "project_vor:meowstrogen",
+        "count": 1
+    }
+}

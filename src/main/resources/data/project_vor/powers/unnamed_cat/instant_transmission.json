@@ -1,3 +1,5 @@
 {
-  "type": "origins:simple"
+  "type": "origins:simple",
+  "name": "[INCOMPLETE] Instant Transmission",
+  "description": "Teleports you 8 blocks ahead."
 }

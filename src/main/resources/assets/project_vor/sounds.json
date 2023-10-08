@@ -1,0 +1,26 @@
+{
+  "music_disc_dreamtheory": {
+    "sounds": [
+      {
+        "name": "project_vor:music_disc_dreamtheory",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_ballistic": {
+    "sounds": [
+      {
+        "name": "project_vor:music_disc_ballistic",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_willdelune": {
+    "sounds": [
+      {
+        "name": "project_vor:music_disc_willdelune",
+        "stream": true
+      }
+    ]
+  }
+}

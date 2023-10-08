@@ -1,0 +1,43 @@
+{
+  "type": "origins:active_self",
+  "key": {
+    "key": "key.use"
+  },
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "mainhand",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "project_vor:meowstrogen"
+      }
+    }
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "effect give @s minecraft:speed 600 2 true"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "clear @s project_vor:meowstrogen 1"
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 12000,
+        "action": {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:darkness",
+            "amplifier": 1,
+            "duration": 180
+          }
+        }
+      }
+    ]
+  },
+  "name": "Cat kitty cat cat kitty cat cat",
+  "description": "Take 1 tablet orally and then mraowmraownyanyamroawwwwwwmraowmreowmewmroawmewmroaw\nI blame Madeline"
+}

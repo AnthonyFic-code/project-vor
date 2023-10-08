@@ -1,0 +1,13 @@
+{
+  "itemGroup.test_group": "Project VOR",
+  "item.project_vor.example_item": "Cow's Head",
+
+  "item.project_vor.music_disc_dreamtheory": "Music Disc",
+  "item.project_vor.music_disc_dreamtheory.desc": "Dream Theory - WitheringWillow",
+
+  "item.project_vor.music_disc_ballistic": "Music Disc",
+  "item.project_vor.music_disc_ballistic.desc": "Ballistic Battle Bomb - WitheringWillow",
+
+  "item.project_vor.music_disc_willdelune": "Music Disc",
+  "item.project_vor.music_disc_willdelune.desc": "Clair de Lune (Streetlight Remix) - WitheringWillow"
+}

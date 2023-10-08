@@ -1,0 +1,5 @@
+{
+  "type": "origins:prevent_elytra_flight",
+  "name": "Aerolethargic",
+  "description": "You can't use an elytra."
+}
