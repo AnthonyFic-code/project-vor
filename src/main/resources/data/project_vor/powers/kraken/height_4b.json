@@ -1,0 +1,65 @@
+{
+  "type": "origins:multiple",
+  "smaller": {
+    "type": "origins:action_on_callback",
+    "entity_action_added":
+    {
+      "type": "origins:execute_command",
+      "command": "scale set 2 @s"
+    },
+    "entity_action_removed":
+    {
+      "type": "origins:execute_command",
+      "command": "scale set 1 @s"
+    },
+    "execute_chosen_when_orb": true,
+    "hidden": false
+  },
+  "hitbox_thinner": {
+    "type": "origins:action_on_callback",
+    "entity_action_added":
+    {
+      "type": "origins:execute_command",
+      "command": "scale set pehkui:hitbox_width 0.66 @s"
+    },
+    "entity_action_removed":
+    {
+      "type": "origins:execute_command",
+      "command": "scale set pehkui:hitbox_width 1 @s"
+    },
+    "execute_chosen_when_orb": true,
+    "hidden": false
+  },
+  "hitbox_shortener": {
+    "type": "origins:action_on_callback",
+    "entity_action_added":
+    {
+      "type": "origins:execute_command",
+      "command": "scale set pehkui:hitbox_height 0.82 @s"
+    },
+    "entity_action_removed":
+    {
+      "type": "origins:execute_command",
+      "command": "scale set pehkui:hitbox_height 1 @s"
+    },
+    "execute_chosen_when_orb": true,
+    "hidden": false
+  },
+  "eye_lowerer": {
+    "type": "origins:action_on_callback",
+    "entity_action_added":
+    {
+      "type": "origins:execute_command",
+      "command": "scale set pehkui:eye_height 0.82 @s"
+    },
+    "entity_action_removed":
+    {
+      "type": "origins:execute_command",
+      "command": "scale set pehkui:eye_height 1 @s"
+    },
+    "execute_chosen_when_orb": true,
+    "hidden": false
+  },
+  "name": "4 Block",
+  "description": "You're 4 blocks tall."
+}

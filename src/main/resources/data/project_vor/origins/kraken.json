@@ -1,0 +1,21 @@
+{
+  "powers": [
+    "project_vor:kraken/height_4b",
+    "project_vor:kraken/stickiness",
+    "project_vor:kraken/cthulhus_bind",
+
+    "origins:water_breathing",
+    "origins:water_vision",
+    "origins:aqua_affinity",
+    "origins:like_water",
+    "origins:aquatic",
+    "origins:conduit_power_on_land"
+  ],
+  "icon": {
+    "item": "minecraft:pufferfish"
+  },
+  "order": 3,
+  "impact": 2,
+  "name": "§1The Kraken",
+  "description": "*comprehending perfectly* Squid guy"
+}

@@ -22,6 +22,13 @@
         "show_particles": false,
         "show_icon": true,
         "amplifier": 2
+      },
+      {
+        "effect": "minecraft:slow_falling",
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true,
+        "amplifier": 2
       }
     ],
     "condition": {

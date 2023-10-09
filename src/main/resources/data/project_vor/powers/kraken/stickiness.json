@@ -1,0 +1,27 @@
+{
+  "type": "origins:multiple",
+  "jumping": {
+    "type": "origins:modify_jump",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -1
+    }
+  },
+  "walking": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_total",
+      "value": -0.8
+    },
+    "tick_rate": 20,
+    "condition": {
+      "type": "origins:fluid_height",
+      "fluid": "minecraft:water",
+      "comparison": "==",
+      "compare_to": 0
+    }
+  },
+  "name": "Stickiness",
+  "description": "You're less mobile on land."
+}
