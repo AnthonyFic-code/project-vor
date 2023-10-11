@@ -1,6 +1,8 @@
 {
-  "itemGroup.test_group": "Project VOR",
+  "itemGroup.project_vor": "Project VOR",
   "item.project_vor.example_item": "Cow's Head",
+
+  "item.project_vor.meowstrogen": "Meowstrogen",
 
   "item.project_vor.music_disc_dreamtheory": "Music Disc",
   "item.project_vor.music_disc_dreamtheory.desc": "Dream Theory - WitheringWillow",

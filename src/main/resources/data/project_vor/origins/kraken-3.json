@@ -1,0 +1,25 @@
+{
+  "powers": [
+    "project_vor:kraken/height_4b",
+    "project_vor:kraken/stickiness",
+    "project_vor:kraken/convert/2",
+    "project_vor:kraken/bind/3",
+    "project_vor:kraken/health_up/3",
+    "project_vor:kraken/charge",
+
+    "origins:water_breathing",
+    "project_vor:kraken/water_vision_no_toggle",
+    "origins:aqua_affinity",
+    "origins:like_water",
+    "origins:aquatic",
+    "origins:conduit_power_on_land"
+  ],
+  "icon": {
+    "item": "minecraft:pufferfish"
+  },
+  "order": 3,
+  "impact": 2,
+  "name": "§1[3] The Kraken",
+  "description": "*not comprehending* Squid guy?",
+  "unchoosable": true
+}

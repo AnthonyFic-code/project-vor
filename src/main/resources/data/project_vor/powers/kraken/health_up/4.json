@@ -1,0 +1,17 @@
+{
+  "type": "origins:attribute",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 20,
+      "operation": "addition"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 2,
+      "operation": "addition"
+    }
+  ],
+  "name": "Health up / Damage up",
+  "description": "+10 Hearts, +2 Damage"
+}

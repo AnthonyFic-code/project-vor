@@ -1,0 +1,19 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:add_velocity",
+    "y": 1
+  },
+  "condition": {
+    "type": "origins:fluid_height",
+    "fluid": "minecraft:water",
+    "comparison": ">",
+    "compare_to": 0
+  },
+  "cooldown": 20,
+  "hud_render": {
+    "should_render": false
+  },
+  "name": "Charge!",
+  "description": "Rapidly dashes out of water."
+}

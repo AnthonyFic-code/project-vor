@@ -14,7 +14,6 @@ import net.minecraft.util.Rarity;
 import org.quiltmc.qsl.item.setting.api.QuiltItemSettings;
 
 public class ModItems {
-	// https://github.com/QuiltMC/developer-wiki/issues/47#issuecomment-1575035049
 	public static final Item EXAMPLE_ITEM = new Item(new QuiltItemSettings());
 	public static final Item MEOWSTROGEN = new Item(new QuiltItemSettings());
 	public static final Item MUSIC_DISC_DREAMTHEORY = new MusicDiscItem(0, ModSounds.MUS_DREAMTHEORY, new QuiltItemSettings().maxCount(1).rarity(Rarity.RARE), 300);
@@ -23,7 +22,7 @@ public class ModItems {
 
 	private static final ItemGroup ITEM_GROUP = FabricItemGroup.builder()
 			.icon(() -> new ItemStack(EXAMPLE_ITEM))
-			.name(Text.translatable("itemGroup.test_group"))
+			.name(Text.translatable("itemGroup.project_vor"))
 			.entries((enabledFeatures, entries) -> {
 				entries.addItem(EXAMPLE_ITEM);
 				entries.addItem(MEOWSTROGEN);

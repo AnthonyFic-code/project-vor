@@ -1,11 +1,15 @@
 {
   "powers": [
+    "project_vor:kraken/upgrade/0",
+
     "project_vor:kraken/height_4b",
     "project_vor:kraken/stickiness",
-    "project_vor:kraken/cthulhus_bind",
+    "project_vor:kraken/convert/0",
+    "project_vor:kraken/bind/0",
+    "project_vor:kraken/charge",
 
     "origins:water_breathing",
-    "origins:water_vision",
+    "project_vor:kraken/water_vision_no_toggle",
     "origins:aqua_affinity",
     "origins:like_water",
     "origins:aquatic",
@@ -16,6 +20,6 @@
   },
   "order": 3,
   "impact": 2,
-  "name": "§1The Kraken",
-  "description": "*comprehending perfectly* Squid guy"
+  "name": "§1[0] The Kraken",
+  "description": "*comprehending perfectly* Squid guy!"
 }

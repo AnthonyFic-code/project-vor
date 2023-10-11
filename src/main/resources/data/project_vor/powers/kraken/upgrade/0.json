@@ -1,0 +1,23 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "origin set @s origins:origin project_vor:kraken-1"
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:block.portal.trigger"
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:xp_levels",
+    "comparison": ">=",
+    "compare_to": 5
+  },
+  "name": "Power for hunger...",
+  "description": "You get stronger at experience level 5."
+}
