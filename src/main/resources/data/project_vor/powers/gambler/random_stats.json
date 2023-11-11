@@ -1,0 +1,292 @@
+{
+  "type": "origins:action_over_time",
+  "interval": "40",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:health 0.5 @s"
+        },
+        "chance": 1
+      },
+      {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:health 0.8 @s"
+        },
+        "chance": 0.5
+      },
+      {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:health 1 @s"
+        },
+        "chance": 0.3
+      },
+      {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:health 1.5 @s"
+        },
+        "chance": 0.2
+      },
+      {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:health 2 @s"
+        },
+        "chance": 0.1
+      },
+      {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:health 2.5 @s"
+        },
+        "chance": 0.1
+      },
+      {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:health 3 @s"
+        },
+        "chance": 0.05
+      },
+      {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:execute_command",
+              "command": "scale set pehkui:height 0.1 @s"
+            },
+            {
+              "type": "origins:execute_command",
+              "command": "scale set pehkui:width 0.1 @s"
+            }
+          ]
+        },
+        "chance": 1
+      },
+      {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:execute_command",
+              "command": "scale set pehkui:height 0.25 @s"
+            },
+            {
+              "type": "origins:execute_command",
+              "command": "scale set pehkui:width 0.25 @s"
+            }
+          ]
+        },
+        "chance": 0.4
+      },
+      {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:execute_command",
+              "command": "scale set pehkui:height 0.5 @s"
+            },
+            {
+              "type": "origins:execute_command",
+              "command": "scale set pehkui:width 0.5 @s"
+            }
+          ]
+        },
+        "chance": 0.35
+      },
+      {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:execute_command",
+              "command": "scale set pehkui:height 0.75 @s"
+            },
+            {
+              "type": "origins:execute_command",
+              "command": "scale set pehkui:width 0.75 @s"
+            }
+          ]
+        },
+        "chance": 0.3
+      },
+      {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:execute_command",
+              "command": "scale set pehkui:height 1 @s"
+            },
+            {
+              "type": "origins:execute_command",
+              "command": "scale set pehkui:width 1 @s"
+            }
+          ]
+        },
+        "chance": 0.2
+      },
+      {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:execute_command",
+              "command": "scale set pehkui:height 1.5 @s"
+            },
+            {
+              "type": "origins:execute_command",
+              "command": "scale set pehkui:width 1.5 @s"
+            }
+          ]
+        },
+        "chance": 0.1
+      },
+      {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:execute_command",
+              "command": "scale set pehkui:height 2 @s"
+            },
+            {
+              "type": "origins:execute_command",
+              "command": "scale set pehkui:width 2 @s"
+            }
+          ]
+        },
+        "chance": 0.05
+      },
+      {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:execute_command",
+              "command": "scale set pehkui:height 2.5 @s"
+            },
+            {
+              "type": "origins:execute_command",
+              "command": "scale set pehkui:width 2.5 @s"
+            }
+          ]
+        },
+        "chance": 0.05
+      },
+      {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:jump_height 0.5 @s"
+        },
+        "chance": 1
+      },
+      {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:jump_height 1 @s"
+        },
+        "chance": 0.8
+      },
+      {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:jump_height 2 @s"
+        },
+        "chance": 0.4
+      },
+      {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:jump_height 3 @s"
+        },
+        "chance": 0.2
+      },
+      {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:jump_height 4 @s"
+        },
+        "chance": 0.1
+      },
+      {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:jump_height 5 @s"
+        },
+        "chance": 0.05
+      },
+      {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:motion 1 @s"
+        },
+        "chance": 1
+      },
+      {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:motion 1.25 @s"
+        },
+        "chance": 0.8
+      },
+      {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:motion 1.5 @s"
+        },
+        "chance": 0.4
+      },
+      {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:motion 2 @s"
+        },
+        "chance": 0.1
+      },
+      {
+        "type": "origins:chance",
+        "action": {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:motion 3 @s"
+        },
+        "chance": 0.01
+      }
+    ]
+  },
+  "name": "Randomized Stats",
+  "description": "Every morning, your stats are changed.",
+  "comment": "Generated by a script, btw"
+}

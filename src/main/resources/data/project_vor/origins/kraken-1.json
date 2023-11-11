@@ -5,7 +5,7 @@
     "project_vor:kraken/height_4b",
     "project_vor:kraken/stickiness",
     "project_vor:kraken/convert/1",
-    "project_vor:kraken/bind/0",
+    "project_vor:kraken/bind",
     "project_vor:kraken/health_up/1",
     "project_vor:kraken/charge",
 
@@ -21,7 +21,7 @@
   },
   "order": 3,
   "impact": 2,
-  "name": "§1[1] The Kraken",
+  "name": "§1[1] Kraken",
   "description": "*comprehending with some difficulty* Squid guy,,",
   "unchoosable": true
 }

@@ -22,13 +22,27 @@
         "show_particles": false,
         "show_icon": true,
         "amplifier": 2
-      },
+      }
+    ],
+    "condition": {
+      "type": "origins:fluid_height",
+      "fluid": "minecraft:water",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  },
+  "slowfall": {
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 10,
+    "effects": [
       {
         "effect": "minecraft:slow_falling",
         "is_ambient": true,
         "show_particles": false,
         "show_icon": true,
-        "amplifier": 2
+        "amplifier": 1
       }
     ],
     "condition": {

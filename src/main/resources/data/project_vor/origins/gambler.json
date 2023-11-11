@@ -1,0 +1,18 @@
+{
+  "powers": [
+    "project_vor:gambler/random_stats",
+    "project_vor:gambler/insta_stat",
+    "project_vor:gambler/item",
+
+    "project_vor:gambler/effect_on_hit",
+    "project_vor:gambler/swapper",
+    "origins:fall_immunity"
+  ],
+  "icon": {
+    "item": "minecraft:gold_block"
+  },
+  "order": 3,
+  "impact": 3,
+  "name": "Gambler",
+  "description": "Ever changing"
+}

@@ -12,24 +12,27 @@
       "actions": [
         {
           "type": "origins:execute_command",
-          "command": "scale set 2 @s"
+          "command": "scale delay set pehkui:health 0"
         },
         {
           "type": "origins:execute_command",
-          "command": "scale set pehkui:hitbox_width 0.66 @s"
+          "command": "scale delay set pehkui:height 0"
         },
         {
           "type": "origins:execute_command",
-          "command": "scale set pehkui:hitbox_height 0.82 @s"
+          "command": "scale delay set pehkui:width 0"
         },
         {
           "type": "origins:execute_command",
-          "command": "scale set pehkui:eye_height 0.82 @s"
+          "command": "scale delay set pehkui:jump_height 0"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "scale delay set pehkui:motion 0"
         }
       ]
     }
   },
   "execute_chosen_when_orb": true,
-  "name": "4 Block",
-  "description": "You're 4 blocks tall."
+  "hidden": true
 }

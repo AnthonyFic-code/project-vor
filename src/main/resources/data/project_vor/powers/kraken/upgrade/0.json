@@ -16,8 +16,8 @@
   "condition": {
     "type": "origins:xp_levels",
     "comparison": ">=",
-    "compare_to": 5
+    "compare_to": 15
   },
-  "name": "Power for hunger...",
-  "description": "You get stronger at experience level 5."
+  "name": "Tome of Knowledge",
+  "description": "You get stronger at experience level 15."
 }

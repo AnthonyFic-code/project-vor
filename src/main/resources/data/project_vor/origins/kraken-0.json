@@ -2,10 +2,10 @@
   "powers": [
     "project_vor:kraken/upgrade/0",
 
-    "project_vor:kraken/height_4b",
+    "project_vor:kraken/height_3b",
     "project_vor:kraken/stickiness",
     "project_vor:kraken/convert/0",
-    "project_vor:kraken/bind/0",
+    "project_vor:kraken/bind",
     "project_vor:kraken/charge",
 
     "origins:water_breathing",
@@ -20,6 +20,6 @@
   },
   "order": 3,
   "impact": 2,
-  "name": "§1[0] The Kraken",
+  "name": "§1[0] Kraken",
   "description": "*comprehending perfectly* Squid guy!"
 }

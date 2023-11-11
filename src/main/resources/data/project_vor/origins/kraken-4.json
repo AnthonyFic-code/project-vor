@@ -4,7 +4,7 @@
     "project_vor:kraken/stickiness",
     "project_vor:kraken/convert/2",
     "project_vor:kraken/bind",
-    "project_vor:kraken/health_up/3",
+    "project_vor:kraken/health_up/4",
     "project_vor:kraken/charge",
 
     "origins:water_breathing",
@@ -15,11 +15,11 @@
     "origins:conduit_power_on_land"
   ],
   "icon": {
-    "item": "minecraft:squid_spawn_egg"
+    "item": "minecraft:glow_squid_spawn_egg"
   },
-  "order": 3,
+  "order": 4,
   "impact": 2,
-  "name": "§1[3] Kraken",
-  "description": "*not comprehending* Squid guy?",
+  "name": "§4The Kraken",
+  "description": "The rest is silence.",
   "unchoosable": true
 }

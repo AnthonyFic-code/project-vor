@@ -1,0 +1,36 @@
+{
+  "type": "origins:multiple",
+  "resource": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 250,
+    "hud_render": {
+      "bar_index": 1,
+      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png"
+    },
+    "max_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "origin set @s origins:origin project_vor:kraken-2"
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:block.portal.trigger"
+        }
+      ]
+    }
+  },
+  "increase": {
+    "type": "origins:self_action_on_kill",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "project_vor:kraken/upgrade/1_resource",
+      "change": 1
+    },
+    "cooldown": 1
+  },
+  "name": "Hunger for Blood",
+  "description": "You get stronger after slaying 250 creatures."
+}

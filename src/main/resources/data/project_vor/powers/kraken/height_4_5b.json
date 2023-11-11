@@ -12,7 +12,7 @@
       "actions": [
         {
           "type": "origins:execute_command",
-          "command": "scale set 2 @s"
+          "command": "scale set 2.4 @s"
         },
         {
           "type": "origins:execute_command",
@@ -30,6 +30,6 @@
     }
   },
   "execute_chosen_when_orb": true,
-  "name": "4 Block",
-  "description": "You're 4 blocks tall."
+  "name": "4.5 Block",
+  "description": "You're 4.5 blocks tall."
 }
